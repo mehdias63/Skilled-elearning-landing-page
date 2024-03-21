@@ -7,10 +7,12 @@ export default {
     },
     extend: {
       colors: {
-        "orange": "#FF6F48",
-        "pink": "#F02AA6",
+        orange: "#FF6F48",
+        pink: "#F02AA6",
         "dark-blue": "#13183F",
         "deep-pink": "#F74780",
+        "light-gray": "#F0F1FF",
+        gray: "#83869A",
       },
     },
   },

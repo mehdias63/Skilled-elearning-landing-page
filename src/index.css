@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 @layer utilities {
-  .btn {
+  .gradient1 {
     @apply bg-gradient-to-b from-orange to-pink;
+  }
+  .gradient2 {
+    @apply bg-gradient-to-b from-white to-light-gray;
   }
 }
