@@ -4,9 +4,12 @@
 
 @layer utilities {
   .gradient1 {
-    @apply bg-gradient-to-b from-orange to-pink;
+    @apply bg-gradient-to-b from-orange to-pink hover:opacity-50;
   }
   .gradient2 {
     @apply bg-gradient-to-b from-white to-light-gray;
+  }
+  .gradient3 {
+    @apply bg-gradient-to-b from-light-blue to-pink hover:opacity-50;
   }
 }
