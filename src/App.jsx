@@ -9,7 +9,7 @@ function App() {
         <div className="lg:pl-20">
           <img src="/images/logo-dark.svg" />
         </div>
-        <Button className="bg-dark-blue md:mr-[2rem] lg:mr-[3.5rem] xl:mr-[16rem]" />
+        <Button className="bg-dark-blue md:mr-[2rem] lg:mr-[3.5rem] xl:mr-[16rem] hover:bg-gray" />
       </header>
       <main className="flex flex-col md:flex-row md:justify-between mt-8 md:mt-24 lg:mt-28 pl-6 lg:pl-24">
         <div>
