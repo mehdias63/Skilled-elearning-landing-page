@@ -5,22 +5,24 @@ import Button from "./components/Button";
 function App() {
   return (
     <div className="gradient2 font-plus min-h-screen max-w-[90rem] mx-auto">
-      <header className="flex justify-between items-center p-6">
+      <header className="flex justify-between items-center p-6 relative">
         <div className="lg:pl-20">
           <img src="/images/logo-dark.svg" />
         </div>
-        <Button className="bg-dark-blue md:mr-[2rem] lg:mr-[3.5rem] xl:mr-[16rem] hover:bg-gray" />
+        <Button className="bg-dark-blue md:mr-[2.5rem] lg:mr-[4.5rem] xl:mr-[16rem] hover:bg-gray z-10" />
       </header>
       <main className="flex flex-col md:flex-row md:justify-between mt-8 md:mt-24 lg:mt-28 pl-6 lg:pl-24">
         <div>
-          <h2 className="text-[2.5rem] lg:text-[3.5rem] font-extrabold text-dark-blue">
-            Maximize skill,minimize budget
-          </h2>
+          <h1 className="text-[2.5rem] lg:text-[3.5rem] font-extrabold text-dark-blue">
+            Maximize skill,
+            <br />
+            minimize budget
+          </h1>
           <p className="text-gray text-base lg:text-lg leading-[1.625rem] lg:leading-7 my-6">
             Our modern courses across a range of in-demand skills will give you
             the knowledge you need to live the life you want.
           </p>
-          <Button className="gradient1 mt-4" />
+          <Button className="gradient1 mt-4 hover:opacity-50" />
         </div>
         <div className="bg-[url(/images/image-hero-mobile.png)] w-full h-[30rem] sm:h-[35rem] md:h-[50rem] bg-no-repeat bg-cover md:bg-[url(/images/image-hero-tablet.png)] lg:bg-[url(/images/image-hero-desktop.png)] md:mt-[-15rem] lg:mt-[-20rem]"></div>
       </main>
@@ -58,7 +60,7 @@ function App() {
         <div>
           <img src="/images/logo-light.svg" />
         </div>
-        <Button className="gradient3" />
+        <Button className="gradient3 hover:opacity-50" />
       </footer>
     </div>
   );

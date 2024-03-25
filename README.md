@@ -23,8 +23,8 @@ This is a solution to the [Skilled e-learning landing page challenge on Frontend
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/mehdias63/Skilled-elearning-landing-page)
-- Live Site URL: [Add live site URL here](https://skilled-elearning-landing-page-pcput3rd4-mehdias63s-projects.vercel.app/)
+- Solution URL: [https://github.com/mehdias63/Skilled-elearning-landing-page]
+- Live Site URL: [https://skilled-elearning-landing-page-pcput3rd4-mehdias63s-projects.vercel.app/]
 
 ## My process
 
